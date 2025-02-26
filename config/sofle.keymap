@@ -38,11 +38,25 @@
 // | SHIFT |  Z  |  X  |  C   |  V   |  B   |  MUTE  |  |       |  N   |  M    |  ,    |  .   |   /   | SHIFT |
 //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
             bindings = <
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+&rgb_ug RGB_COLOR_HSB(167,68,34)  &kp N1  &kp N2    &kp N3    &kp N4     &kp N5                              &kp N6     &kp N7     &kp N8     &kp N9    &kp N0    &none
+&kp ESC                           &kp Q   &kp W     &kp E     &kp R      &kp T                               &kp Y      &kp U      &kp I      &kp O     &kp P     &kp BSPC
+&kp TAB                           &kp A   &kp S     &kp D     &kp F      &kp G                               &kp H      &kp J      &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LSHFT                         &kp Z   &kp X     &kp C     &kp V      &kp B      &kp C_MUTE    &none      &kp N      &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+                                          &kp LGUI  &kp LALT  &kp LCTRL  &mo LOWER  &kp RET       &kp SPACE  &mo RAISE  &kp RCTRL  &kp RALT   &kp RGUI
+=======
+>>>>>>> 4a3bc6a (delete rgb 2)
 &kp GRAVE &kp N1 &kp N2   &kp N3   &kp N4    &kp N5                           &kp N6 &kp N7    &kp N8    &kp N9   &kp N0   &none
-&kp ESC   &kp Q  &kp W    &kp E    &kp R     &kp T                            &kp Y  &kp U     &kp I     &kp O    &kp P    &kp BSPC
-&kp TAB   &kp A  &kp S    &kp D    &kp F     &kp G                            &kp H  &kp J     &kp K     &kp L    &kp SEMI &kp SQT
-&kp LSHFT &kp Z  &kp X    &kp C    &kp V     &kp B      &kp C_MUTE &none      &kp N  &kp M     &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-                 &kp LGUI &kp LALT &kp LCTRL &mo LOWER  &kp RET    &kp SPACE  &mo RAISE  &kp RCTRL &kp RALT  &kp RGUI
+&kp ESC   &kp Q  &kp W    &kp F    &kp P     &kp B                            &kp J  &kp L     &kp U     &kp Y    &kp SEMI    &kp BSPC
+&kp LSHFT &kp A  &kp R    &kp S    &kp T     &kp G                            &kp M  &kp N     &kp E     &kp I    &kp O    &kp SQT
+&kp LSHFT &kp Z  &kp X    &kp C    &kp D     &kp B      &kp C_MUTE &none      &kp K  &kp H     &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
+                 &kp LGUI &kp LALT &kp LCTRL &mo LOWER  &kp SPACE    &kp RET  &mo RAISE  &kp RCTRL &kp RALT  &kp RGUI
+<<<<<<< HEAD
+=======
+>>>>>>> 2cc39e3 (delete rgb)
+>>>>>>> 4a3bc6a (delete rgb 2)
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -90,7 +104,7 @@
         adjust_layer {
 // ----------------------------------------------------------------------------------------------------------------------------
 // | BTCLR  |  BT1    |  BT2    |   BT3   |   BT4   |   BT5   |                  |      |      |       |      |       |       |
-// | EXTPWR | RGB_HUD | RGB_HUI | RGB_SAD | RGB_SAI | RGB_EFF |                  |      |      |       |      |       |       |
+// | EXTPWR | B_HUD | RGB_HUI | RGB_SAD | RGB_SAI | RGB_EFF |                  |      |      |       |      |       |       |
 // |        | RGB_BRD | RGB_BRI |         |         |         |                  |      |      |       |      |       |       |
 // |        |         |         |         |         |         | RGB_TOG | |      |      |      |       |      |       |       |
 //                    |         |         |         |         |         | |      |      |      |       |      |
