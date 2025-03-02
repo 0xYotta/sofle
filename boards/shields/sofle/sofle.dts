@@ -1,0 +1,9 @@
+
+#include <dt-bindings/zmk/rgb_underglow.h>
+
+&ws2812 {
+    label = "SK6812";
+    chain-length = <58>;  // Set to the number of LEDs you have
+    color-order = <WS2812_COLOR_ORDER_GRBW>; // Use GRBW if White channel is available
+    max-brightness = <128>;  // Adjust brightness (0-255)
+};
