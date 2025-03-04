@@ -7,3 +7,17 @@
     color-order = <WS2812_COLOR_ORDER_GRBW>; // Use GRBW if White channel is available
     max-brightness = <128>;  // Adjust brightness (0-255)
 };
+
+
+&spi1 {
+    status = "okay";
+    ws2812: ws2812@0 {
+        compatible = "worldsemi,ws2812";
+        label = "WS2812";
+        spi-max-frequency = <8000000>;
+        chain-length = <58>; // Количество светодиодов
+        color-order = "GRB";
+        spi-max-frequency = <8000000>;
+        mosi-pin = <&gpio0 8 GPIO_ACTIVE_HIGH>;
+    };
+};
